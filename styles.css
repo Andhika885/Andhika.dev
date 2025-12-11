@@ -17,7 +17,7 @@ nav{display:flex;gap:12px}
 nav a{color:var(--muted);text-decoration:none;padding:8px 12px;border-radius:8px;font-size:14px}
 nav a:hover{background:var(--glass);color:white}
 main{margin-top:28px;display:grid;grid-template-columns:1fr 360px;gap:20px}
-.card{background:linear-gradient(180deg,var(--card),#061025);padding:18px;border-radius:14px;box-shadow:0 6px 20px rgba(2,6,23,0.6)}
+.card{background:linear-gradient(180deg,var(--card),#011644);padding:18px;border-radius:14px;box-shadow:0 6px 20px rgba(2,6,23,0.6)}
 .Avatar-img{width: 80px; height: auto; border-radius: 12px;}
 .skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
 .chip{padding:8px 10px;border-radius:999px;background:var(--glass);font-size:13px;color:var(--muted)}
@@ -26,4 +26,5 @@ main{margin-top:28px;display:grid;grid-template-columns:1fr 360px;gap:20px}
 .project h3{margin:0;font-size:16px}
 .project p{margin:6px 0 0;color:var(--muted);font-size:13px}
 footer{text-align:center;color:var(--muted);margin-top:20px;font-size:13px}
+
 
