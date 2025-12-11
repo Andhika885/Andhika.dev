@@ -1,0 +1,195 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Andhika.dev — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- CONTENT SAMA seperti sebelumnya -->
+    <!-- Hanya dipindah ke file CSS/JS terpisah -->
+    <header>
+      <div class="brand">
+        <img src="jpg/Logo A.jpg" class="profile-img"/>
+        <div>
+          <h1>Andhika.dev</h1>
+          <p class="lead">Andhika Fhatrichias Arbania — Developer • Pengajar • Pembuat solusi sederhana</p>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px">
+        <button class="menu-btn card" onclick="toggleMenu()">Menu</button>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div id="about" class="card about">
+          <img src="jpg/Andhika.jpg" class="Avatar-img"/>
+          <div>
+            <h2 style="margin:0 0 6px">Halo — saya Andhika</h2>
+            <p>Saya mahasiswa & pengajar teknik komputer yang tertarik pada pengembangan aplikasi berbasis Python, UI/UX sederhana, dan solusi bisnis makanan sehat. Saya suka membuat proyek yang mudah dipahami dan bisa langsung dipakai.</p>
+
+            <div class="skills" style="margin-top:12px">
+              <span class="chip">Python</span>
+              <span class="chip">OOP</span>
+              <span class="chip">HTML & CSS</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">UI/UX</span>
+              <span class="chip">Cybersecurity</span>
+            </div>
+          </div>
+        </div>
+
+        <div id="projects" class="card" style="margin-top:14px">
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <h3 style="margin:0">Proyek Pilihan</h3>
+            <a class="muted" href="#">Lihat semua →</a>
+          </div>
+
+          <div class="projects-list">
+            <div class="project">
+              <h3>Inventaris Gudang (OOP Python)</h3>
+              <p>Implementasi sistem inventaris dengan class Barang, Gudang, dan Stok. Fitur: pencarian, sorting, dan manajemen stok.</p>
+              <div class="meta">Python • OOP • CLI</div>
+            </div>
+
+            <div class="project">
+              <h3>Aplikasi Catatan Keuangan (Mobile UI)</h3>
+              <p>Desain layar: Login, Dashboard, Profil. Fokus pada UX sederhana untuk pengguna pemula.</p>
+              <div class="meta">Figma • Desain Mobile</div>
+            </div>
+
+            <div class="project">
+              <h3>Playlist Manager (Double Linked List)</h3>
+              <p>Program Python yang mengelola playlist lagu menggunakan double linked list, plus operasi CRUD dan navigasi.</p>
+              <div class="meta">Python • Struktur Data</div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h2 style="margin:0">Blog singkat</h2>
+          <div class="divider"></div>
+          <p class="muted">
+
+
+<h3> 1. Membangun Program Inventaris Gudang dengan OOP Python </h3>
+Sebagai mahasiswa yang sering mengerjakan proyek Python, salah satu karya terbaik Saya adalah aplikasi inventaris gudang berbasis <b> Object-Oriented Programming (OOP). </b> Program ini memakai tiga class utama: <b> Barang, Gudang, dan Stok, </b> termasuk penerapan fitur <b>searching, sorting, dan stack </b> untuk riwayat perubahan data.
+Tujuan saya membuat aplikasi ini adalah supaya pengelolaan barang jadi lebih rapih, mudah dipahami, dan bisa digunakan siapa saja yang baru belajar OOP. Saya selalu percaya bahwa program yang baik itu bukan cuma berjalan, tapi juga <b> logis dan mudah dipelihara. </b>
+<br>
+
+<br>
+<h3> 2. Merancang Aplikasi Catatan Keuangan Mobile dengan UI/UX Minimalis </h3>
+saya pernah membuat desain aplikasi catatan keuangan sederhana di Figma. Fokus utama saya adalah membuat tampilan <b> bersih, minimalis, dan tidak membuat pusing pengguna baru.</b>
+Halaman yang saya buat:
+<br>
+* Login <br>
+* Dashboard <br>
+* Profil<br>
+Selain itu, saya belajar bahwa UI/UX itu bukan cuma soal estetika, tapi tentang bagaimana membuat aplikasi yang benar-benar memudahkan hidup orang.
+<br>
+
+<br>
+<h3> 3. Mengolah Playlist Lagu dengan Double Linked List di Python </h3>
+Salah satu proyek Python favorit Saya adalah aplikasi playlist berbasis <b>Double Linked List. </b> Saya Buat fitur:
+<br>
+* Tambah lagu <br>
+* Hapus lagu <br>
+* Navigasi maju/mundur <br>
+* Menampilkan playlist secara dinamis <br>
+Proyek ini mengajarkan Saya bahwa struktur data itu sangat penting, terutama kalau aplikasi butuh fleksibilitas dalam berpindah-pindah data.
+<br>
+
+<br>
+<h3> 4. Minat saya di Dunia Cybersecurity </h3>
+Saya punya ketertarikan khusus pada dunia <b>cybersecurity. </b> Buat saya, keamanan digital itu bukan cuma tentang hacking atau serangan, tapi tentang memahami bagaimana sistem bekerja, apa celahnya, dan gimana cara mencegahnya.
+Walaupun masih dalam tahap belajar, Saya sering membaca dan mempraktikkan hal dasar seperti:
+<br>
+* mengenal protokol jaringan, <br>
+* mencoba memahami kerentanan umum, <br>
+* dan melihat praktik keamanan pada aplikasi sehari-hari. <br>
+Ke depannya saya ingin lebih serius mendalami bidang ini.
+<br>
+
+<br>
+<h3> 5. Mengajar di Pondok Pesantren: Perjalanan Berharga </h3>
+Selain ngoding, Saya juga mengajar di Pondok Pesantren. Mata pelajaran yang saya pegang meliputi:
+<br>
+* Tahsin <br>
+* Adab <br>
+* Matematika <br>
+* Geografi <br>
+Bagi saya, mengajar bukan sekadar menyampaikan materi, tapi belajar bagaimana <b>sabar, jelas, dan menginspirasi anak-anak. </b> Ini jadi pengalaman yang paling banyak mengubah cara saya berpikir dan berinteraksi.
+<br>
+
+<br>
+<h3> 6. Ide Bisnis Kuliner Sehat Berbasis Melinjo: HealthyMelo </h3>
+Saya juga tertarik di dunia bisnis, khususnya makanan sehat. Makanya, Saya ngembangin konsep produk bernama <b>HealthyMelo</b>, yaitu makanan sehat berbahan dasar melinjo.
+Tujuan saya:
+<br>
+* bikin makanan yang enak tapi tetap sehat, <br>
+* memanfaatkan bahan lokal, <br>
+* sambil tetap menjaga nilai nutrisi. <br>
+Saya percaya gaya hidup sehat bisa dimulai dari hal kecil yang sederhana.
+<br>
+
+<br>
+<h3>7. Personal Branding: Membangun Citra Profesional di Media Sosial</h3>
+Saya lagi membangun personal branding sendiri di sosial media. Fokus utamanya:
+<br>
+* teknologi <br>
+* edukasi <br>
+* produktivitas <br>
+* motivasi memperbaiki diri <br>
+Bagi Saya, personal branding bukan sekadar konten, tapi tentang menunjukkan <b> jati diri </b> sambil tetap bermanfaat buat orang lain.
+
+
+</p>
+        </div>
+      </section>
+
+      <aside class="aside">
+        <div class="card">
+          <h3 style="margin:0">Kontak</h3>
+          <div class="divider"></div>
+          <div class="contact-list">
+            <a class="btn" href="mailto:andhika@example.com">Email: andhika@example.com</a>
+            <a class="btn" href="https://github.com/andhika" target="_blank">GitHub</a>
+            <a class="btn" href="https://linkedin.com/in/andhika" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h4 style="margin:0">Skill Rating</h4>
+          <div class="divider"></div>
+          <p class="muted">Python <strong>★★★☆☆</strong></p>
+          <p class="muted">UI/UX <strong>★★★☆☆</strong></p>
+          <p class="muted">Networking & Cybersec <strong>★★☆☆☆</strong></p>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h4 style="margin:0">Download CV</h4>
+          <div class="divider"></div>
+          <a class="btn" href="#">Unduh CV (PDF)</a>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      © <span id="year"></span> Andhika.dev — Built with ❤️
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
